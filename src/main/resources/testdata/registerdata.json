@@ -1,0 +1,14 @@
+[
+  {
+    "firstName": "New",
+    "lastName": "User",
+    "email": "newvalidusr1@gmail.com",
+    "passwd": "HHaaHH@1990",
+    "firstAddress": "Al Sayeda Zainab, Cairo",
+    "city": "Cairo",
+    "postcode": "11617",
+    "country": "United States",
+    "state": "Hawaii",
+    "phone_mobile": "0100000000000"
+  }
+]

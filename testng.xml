@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestSuite" thread-count="1" parallel="tests">
+    <test name="ChromeRegistrationTest">
+        <parameter name="browser" value="Chrome"/>
+        <classes>
+            <class name="tests.register.RegisterTest"></class>
+        </classes>
+    </test>
+    <test name="ChromeLoginTest">
+        <parameter name="browser" value="Chrome"/>
+        <classes>
+            <class name="tests.login.SignInTest"></class>
+        </classes>
+    </test>
+    <test name="ChromePlaceOrderTest">
+        <parameter name="browser" value="Chrome"/>
+        <classes>
+            <class name="tests.placeorder.PlaceAWomanBlouseOrder"></class>
+        </classes>
+    </test>
+</suite>
